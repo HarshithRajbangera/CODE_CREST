@@ -1,0 +1,108 @@
+/* Cyberpunk Theme CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #00fff7;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #0f0f0f, #1a1a1a);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(20, 20, 20, 0.8);
+    padding: 40px;
+    border: 2px solid #00fff7;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00fff7, 0 0 25px #ff00c8 inset;
+}
+
+/* Header */
+.head-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head-container h1 {
+    font-size: 3rem;
+    color: #ff00c8;
+    text-shadow: 0 0 10px #ff00c8, 0 0 20px #ff00c8;
+}
+
+.head-container h3 {
+    font-size: 1.5rem;
+    color: #00fff7;
+    text-shadow: 0 0 8px #00fff7;
+    margin-top: 10px;
+}
+
+/* Rules */
+.rules-container h2 {
+    font-size: 2rem;
+    color: #ff00c8;
+    text-shadow: 0 0 10px #ff00c8;
+    margin-bottom: 10px;
+}
+
+.rules-container p {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #f0f0f0;
+}
+
+/* Rounds */
+.round-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.round-container div {
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ff00c8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.round-container div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00fff7;
+}
+
+.round-container p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Neon Button */
+.round-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff00c8;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px #ff00c8;
+}
+
+.round-container a:hover {
+    background-color: #00fff7;
+    color: #000;
+    box-shadow: 0 0 15px #00fff7, 0 0 25px #00fff7;
+}
+
+/* Optional: Cyberpunk font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');

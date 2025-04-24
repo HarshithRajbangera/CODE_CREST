@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #00fff7;
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #0d0d0d, #1a1a1a);
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(20, 20, 20, 0.85);
+    padding: 40px;
+    border: 2px solid #00fff7;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00fff7, 0 0 25px #ff00c8 inset;
+}
+
+/* Header Section */
+.head-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.head-container h1 {
+    font-size: 3rem;
+    color: #ff00c8;
+    text-shadow: 0 0 10px #ff00c8, 0 0 20px #ff00c8;
+}
+
+.head-container h3 {
+    font-size: 1.5rem;
+    color: #00fff7;
+    text-shadow: 0 0 8px #00fff7;
+    margin-top: 10px;
+}
+
+/* Rules Section */
+.rules-container h2 {
+    font-size: 2rem;
+    color: #ff00c8;
+    text-shadow: 0 0 10px #ff00c8;
+    margin-bottom: 15px;
+}
+
+.rules-container p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #f0f0f0;
+}
+
+/* Round Section */
+.round-container {
+    margin-top: 30px;
+}
+
+/* Auction Section */
+.auction {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(40, 40, 40, 0.95);
+    border: 1px solid #00fff7;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #00fff7;
+}
+
+.auction p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Button */
+.auction a {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff00c8;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0 0 10px #ff00c8;
+    transition: all 0.3s ease;
+}
+
+.auction a:hover {
+    background-color: #00fff7;
+    color: #000;
+    box-shadow: 0 0 15px #00fff7, 0 0 25px #00fff7;
+}
